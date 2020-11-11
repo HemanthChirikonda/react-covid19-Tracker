@@ -73,7 +73,7 @@ function LineGraph({ casesType }) {
 				}
 				return chartdata;
 			};
-			const chartdata = buildChartData(data);
+			const chartdata = buildChartData(data, casesType);
 			setgraphData(chartdata);
 		};
 		fetchdata();
